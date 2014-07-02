@@ -1,28 +1,27 @@
-This is a practice repository for HTML5 / CSS / JavaScript.
- ==========================================================
+#This is a practice repository for HTML5 / CSS / JavaScript.
 
-HTML5
------
-To do:
- * a
- * b
+##HTML5
+Plans:
+ * HTML Basic - done (./html/01_basic.html)
+ * HTML5 Basic
+ * HTML5 Forms
+ * HTML5 Graphics
+ * HTML5 Media
+ * HTML5 APIs
 
-CSS
----
-To do:
- * a
- * b
+##CSS
+Plans:
+ * TBD
+ * TBD
 
-JavaScript
-----------
-To do:
- * a
- * b
+##JavaScript
+Plans:
+ * TBD
+ * TBD
 
-Responsive Web Design (RWD)
----------------------------
-To do:
- * a
- * b
+##Responsive Web Design (RWD)
+Plans:
+ * TBD
+ * TBD
 
 
