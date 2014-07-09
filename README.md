@@ -3,7 +3,7 @@
 ##HTML5
 Plans:
  * HTML Basic - done (./html/01_basic.html)
- * HTML5 Basic
+ * HTML5 Basic - done (./html5_boilerplate)
  * HTML5 Forms
  * HTML5 Graphics
  * HTML5 Media
@@ -11,17 +11,17 @@ Plans:
 
 ##CSS
 Plans:
- * TBD
+ * Basic usage - done (./html5_boilerplate)
  * TBD
 
 ##JavaScript
 Plans:
- * TBD
+ * Basic usage - done (./html5_boilerplate)
  * TBD
 
 ##Responsive Web Design (RWD)
 Plans:
- * TBD
+ * Sample - RWD with width adjustment (./html5/width_adjustment.html)
  * TBD
 
 
