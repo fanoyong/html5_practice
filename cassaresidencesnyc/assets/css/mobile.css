@@ -1,0 +1,418 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (max-width:1050px) {
+/*header*/
+	
+#headerWrap{
+	width:90%;
+	background-color: none;
+}	
+	
+/*Navigation*/
+.cbp-spmenu li a {
+	font-size:80%;
+}
+
+.cbp-spmenu a {
+	font-size:80%;
+}
+.menuWrap{
+	width:90%;
+}
+/*Main content*/
+#mainContent_wrap {
+	width: 90%;
+	background-color: none;
+	margin:10% auto 0 auto;
+}
+
+#pg_wrap{
+	width: 90%;
+}
+
+#inside_HoldClose{
+	width:90%;
+}
+/******roll over text**************/
+#hiddentext{
+	font-size:90%;
+	background-color: none;
+}
+	#TextWrap{
+		width:86%;
+	}
+/******Contact form**************/	
+
+#WrapForm{
+	width: 90%;
+}
+/******Contact form**************/	
+#footerInfo_Wrap{
+		width:90%;
+	}
+}
+
+@media screen and (max-width:950px) {
+/******3 quarter page Image**************/
+#three_quarter_img{
+	width:71%;
+}
+
+/********/
+/******Quarter Page Images**************/
+#quarter_img{
+	width: 28.75%;
+}
+}
+
+@media screen and (max-width:900px) {
+/******3 quarter page Image**************/
+#three_quarter_img{
+	width:70.5%;
+}
+
+/********/
+/******Quarter Page Images**************/
+#quarter_img{
+	width: 28.75%;
+}
+
+#playIcon{
+	top:35%;
+	left:50%;
+	width:50px;
+	height:50px;
+	background: url(../img/play.svg) no-repeat;
+	margin: -25px 0 0 -25px;
+}
+}
+
+@media screen and (max-width:780px) {
+	
+	#logo img{
+		width: 75%;
+		background-color:none;
+	}
+	
+	/********Scroll BTN*********/
+
+	#pg_scroll img{
+		width: 70%;
+	}
+	
+	/*Navigation*/
+	.cbp-spmenu li {
+		margin:0 1% 0 1%;
+	}
+	
+	.cbp-spmenu li a {
+		font-size:70%;
+		background-color:none;
+	}
+	
+	cbp-spmenu a {
+		font-size:70%;
+		background-color:none;
+	}
+	
+	#FontTest{
+		font-size:130%;
+	}
+
+	#textbox{
+		font-size: 70%;
+	}
+	
+	#address_txt{
+		font-size: 70%;
+		text-transform:uppercase;
+	}
+	
+	#marketing_txt{
+		font-size:.5em;
+	}
+	
+	#equal_housing_logo img{
+		max-width: 30px;
+		width:70%;
+		background:none;
+	}
+	
+	/******3 quarter page Image**************/
+	#three_quarter_img{
+	width:70%;
+	}
+	
+	/********/
+	/******Quarter Page Images**************/
+	#quarter_img{
+		width: 29%;
+	}
+	/********/
+	
+
+	/******footer**************/
+	#footerInfo_Wrap .txt{
+		font-size:70%;
+		line-height:1.4em;
+	}
+}
+
+@media screen and (max-width:600px) {
+	/*Main content*/
+	#mainContent_wrap {
+		margin:0 auto 0 auto;
+	}
+	
+	/*Navigation*/
+	.cbp-spmenu li {
+		display:block;
+		margin:0 1% 0 1%;
+	}
+	
+	.cbp-spmenu li a {
+		font-size:80%;
+		background-color:none;
+	}
+	
+	.cbp-spmenu a {
+		font-size:80%;
+		background-color:none;
+	}
+	
+	.menuWrap li.left{
+		float:left;
+		width:45%;
+	}
+
+	.menuWrap li.right{
+		float:left;
+		width:45%;
+	}
+	
+	#contactHeader {
+		font-size: 2em;
+	}
+	
+	#FontTest{
+		font-size:120%;
+	}
+	
+	/******3 quarter page Image**************/
+	#three_quarter_img{
+	width:69.5%;
+	}
+	
+	/********/
+	/******Quarter Page Images**************/
+	#quarter_img{
+		width: 29.25%;
+	}
+	/******roll over text**************/
+	#hiddentext{
+		font-size:70%;
+		background-color: none;
+	}
+	
+	#playIcon{
+		position:absolute;
+		top:32%;
+		left:50%;
+		width:50px;
+		height:50px;
+		background: url(../img/play.svg) no-repeat;
+		margin: -25px 0 0 -25px;
+	}
+	
+	/***********home page bottom***********/	
+	.bottomBoarder{
+		height:110px;
+	}
+	
+	.bottomBoarder .txt{
+		margin:30px auto 0 auto;
+	}
+	
+	.bottomBoarder .txt h{
+		font-size:175%;
+	}
+	
+	.bottomBoarder .txt p{
+		font-size:58%;
+	}
+	
+/*********Form***********************/
+
+
+input, textarea { 
+   font-size: 85%;
+}
+
+.styled-select select {
+   font-size: 85%;
+ }
+
+	
+}
+
+@media screen and (max-width:450px) {
+	
+	#sm_logo{
+		margin: 12px 0 0 5px;
+	}
+	
+	/********Scroll BTN*********/
+	#pg_scroll{
+		margin:15% auto 0 auto;
+	}
+
+	#pg_scroll img{
+		width: 55%;
+	}
+	
+	/*Navigation*/
+	.cbp-spmenu li {
+		display:block;
+		margin:0 1% 0 1%;
+	}
+
+	
+	.menuWrap li.left{
+		float:left;
+		width:100%;
+	}
+
+	.menuWrap li.right{
+		float:left;
+		width:100%;
+	}
+	
+	#textbox{
+		line-height:1.75em;
+	}
+	
+	#contactHeader {
+		font-size: 1.75em;
+	}
+	
+	/******Half page Image**************/
+
+	#halfPG_img{
+		float:left;
+		width:100%;
+		margin: 1.5% 0 0 0;
+	}
+	
+	#halfPG_img_right{
+		float: left;
+		width:100%;
+		margin: 1.5% 0 0 0;
+	}
+	
+	/******3 quarter page Image**************/
+	#three_quarter_img{
+		width:100%;
+		margin: 1.5% 0 0 0;
+	}
+	
+	/********/
+	/******Quarter Page Images**************/
+	#quarter_img{
+		display:none;
+	}
+	
+	/******Quarters Bottom**************/
+
+	#quarterBottom_img{
+		margin:1.5% .5% 0 0;
+	}
+	
+	#quarterBottomR_img {
+		float:left;
+		margin:1.5% 0 0 0;
+	}
+	
+	#playIcon{
+		position:absolute;
+		top:28%;
+		left:50%;
+		width:50px;
+		height:50px;
+		background: url(../img/play.svg) no-repeat;
+		margin: -25px 0 0 -25px;
+	}
+	/********/
+	/******footer**************/
+	#footerInfo_Wrap .txt{
+		font-size:60%;
+		line-height:1.4em;
+	}
+	/******roll over text**************/
+	#hiddentext{
+		font-size:70%;
+		background-color: none;
+	}
+	/******************* ☰ Navigation Menue #dcddde***********************/
+
+.nav_btn{
+	float:right;
+	font-size:1.4em;
+	color: #5d5e60;
+	width:1.4em;
+	margin: 30px 2px 0 0;
+	background-color: none;
+	text-align:center;
+	cursor:pointer;
+	-webkit-transition-duration: 0.30s;
+	-webkit-transition-timing-function: ease-in; 
+	-moz-transition-duration: 0.30s;
+	-moz-transition-timing-function: ease-in; 
+}
+	
+}
+
+@media screen and (max-width:390px) {
+	
+	#TextWrap{
+		width:86%;
+		font-size:90%;
+	}
+	
+	#hiddentext{
+		font-size:40%;
+		background-color: none;
+	}
+	
+	#sm_logo{
+		margin: 12px 0 0 0;
+	}
+	
+	#formBox {
+		position: relative;
+		max-width:1250px;
+		width: 100%;
+		min-width:280px;
+		height:auto;
+		overflow:hidden;
+		background-color: #FFF;
+		margin:0px auto 0 auto;
+		padding:30px 10px 50px 10px;
+		z-index:2;
+		border:#f5f6f6 solid 10px;
+		-moz-box-sizing:    border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing:         border-box;
+	}
+	
+	#marketing_txt{
+		font-size:30%;
+		background-color:none;
+	}
+	
+	
+}
+
+@media screen and (max-width:350px) {
+	
+}

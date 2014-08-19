@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'GothamLight';
+    src: url('lightfont.eot');
+    src: url('lightfont.eot') format('embedded-opentype'),
+         url('lightfont.woff') format('woff'),
+         url('lightfont.ttf') format('truetype'),
+         url('lightfont.svg#GothamLight') format('svg');
+}
