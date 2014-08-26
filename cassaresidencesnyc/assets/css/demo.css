@@ -1,0 +1,360 @@
+/* General Demo Style */
+
+@font-face {
+    font-family: 'GothamLight';
+    src: url('../fonts/lightfont.eot');
+    src: url('../fonts/lightfont.eot') format('embedded-opentype'),
+         url('../fonts/lightfont.woff') format('woff'),
+         url('../fonts/lightfont.ttf') format('truetype'),
+         url('../fonts/lightfont.svg#GothamLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../fonts/book.eot');
+    src: url('../fonts/book.eot') format('embedded-opentype'),
+         url('../fonts/book.woff') format('woff'),
+         url('../fonts/book.ttf') format('truetype'),
+         url('../fonts/book.svg#GothamBook') format('svg');
+}
+
+
+
+body {
+    background:#dcddde;
+    color:#666;
+    -webkit-font-smoothing: antialiased;
+	font-family:'GothamBook';
+}
+
+/*Fonts*/
+#FontTest{
+	position: relative;
+	font-family:'GothamBook';
+	font-size:1.7em;
+	letter-spacing:.09em;
+	color: #FFF;
+	text-transform:uppercase;
+	margin:60px auto 0 auto;
+	z-index: 200;
+	background-color:none;
+	text-align:center;
+}
+
+/************************Fullpage_bg_Image*****************************/
+
+
+/********/
+/*******************Logo***********************/
+#logo{
+	position: relative;
+	max-width:350px;
+	min-width:250px;
+	width:80%;
+	margin:15% auto 0 auto;
+	z-index:200;
+	background-color: none;
+	text-align:center;
+}
+
+
+/*********Bottom of page***********************/
+
+#bottomBoarder{
+	position:fixed;
+	bottom: 0;
+	left:0;
+	background-color:#FFF;
+	width:100%;
+	height:170px;
+	z-index:200;
+}
+
+#textbox{
+	max-width:600px;
+	min-width: 300px;
+	width:75%;
+	min-height:65px;
+	max-height: 90px;
+	font-family:'GothamBook';
+	background-color:none;
+	margin:50px auto;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:1em;
+	line-height:35px;
+	border:solid #666 2px;
+}
+
+
+#textbox a{
+	font-family:'GothamBook';
+	text-decoration:none;
+	background-color:none;
+	color:#666;
+	padding:10px 20px 10px 20px;
+	-webkit-transition-duration: 0.30s;
+    -webkit-transition-timing-function: ease-in; 
+    -moz-transition-duration: 0.30s;
+    -moz-transition-timing-function: ease-in;
+}
+
+#textbox a:hover{
+	font-family:'GothamBook';
+	text-decoration:none;
+	background-color: #dcddde;
+	color:#666;
+}
+
+#textbox2{
+	max-width:380px;
+	min-width:250px;
+	width:70%;
+	height:30px;
+	font-family:'GothamBook';
+	background-color: #FFF;
+	margin:-15px auto 0 auto;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:1em;
+	line-height:32px;
+}
+
+/*********Form***********************/
+
+#formWrap{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+	background-color:#FFF;
+	z-index: 250;
+	overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
+}
+
+#formBox {
+	position:absolute;
+	top:10%;
+	left:50%;
+	width: 50%;
+	max-width:600px;
+	min-width:280px;
+	background-color: none;
+	padding:10px 10px 80px 10px;
+	-webkit-transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+	z-index:2;
+}
+
+#contactHeader {
+	font-size: 2.125em;
+	width: 100%;
+	color: #666;
+	margin:0 0 0 0;
+	text-align:left;
+	text-transform:uppercase;
+	background-color:none;
+}
+
+#fields_Left {
+	float:left;
+	width: 100%;
+	margin: 20px 0 0 0;
+	background-color: none;
+}
+
+#fields_right{
+	float:left;
+	width:100%;
+	margin: 0 0 0 0;
+	background-color: none;
+}
+
+input, textarea { 
+   font-family:'GothamLight';
+   float:left;	
+   width: 100%;
+   height: 30px;
+   overflow: hidden;
+   background: none;
+   border-top: none; border-left: none; border-right:none;	
+   border-bottom:none;
+   padding:0 0 0 0;
+   margin: 3px 0 0 0;
+   color:#666;
+   text-indent: 0;
+   font-size: .9em;
+   outline: none;
+   border-radius: 0;
+   -webkit-appearance: none;
+   text-transform:uppercase;
+}
+
+/****New dropdown style****/
+
+.styled-select {
+   float:left;	
+   width: 100%;
+   height: 30px;
+   overflow: hidden;
+   background: none;
+   color: #3C9;
+   border-bottom:none;
+   padding:0 0 0 0;
+   margin: 3px 0 0 0;
+   outline: none;
+   text-transform:uppercase;
+}
+
+.styled-select select {
+   background:transparent;	
+   font-family:'GothamLight';
+   font-size: .9em;
+   text-indent:0px;
+   color: #666;
+   width: 110%;
+   padding: 0;
+   border: none;
+   border-radius:0;
+   outline: none;
+   height:30px;
+   -webkit-appearance:none;
+   cursor:pointer;
+   background-color:none;
+   margin-top:0px;
+   text-transform:uppercase;
+ }
+ 
+
+
+/****Send Button****/
+
+#send {
+	font-family:'GothamLight';
+	width: 100%;
+	height:auto;
+	background-position: 10%;
+	border:solid #666 2px;
+	border-left:none;
+	border-right:none;
+	font-size: 2em;
+	color: #666;
+	text-align: left;
+	float:left;
+	clear:left;
+	margin: 30px 0 0% 0%;
+	padding: 3% 0 2% 0;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-webkit-transition-duration: 0.40s;
+	-webkit-transition-timing-function: ease-in; 
+	-moz-transition-duration: 0.40s;
+	-moz-transition-timing-function: ease-in; 
+}
+
+#send:hover {
+	 color:#dcddde;
+	-webkit-transition-duration: 0.40s;
+	-webkit-transition-timing-function: ease-in; 
+	-moz-transition-duration: 0.40s;
+	-moz-transition-timing-function: ease-in; 
+}
+
+#marketingWrap{
+	float:left;
+	width: 100%;
+	margin:50px 0 0 0;
+	background-color:none;
+}
+
+#marketing_txt{
+	float:left;
+	font-size:.7em;
+	float:left;
+	clear: both;
+	line-height:1.25em;
+	background-color:none;
+	text-transform:uppercase;
+}
+
+#address_txt{
+	float:left;
+	clear:both;
+	font-size: 1em;
+	text-transform:uppercase;
+	margin: 40px 0 0 0;
+	background:none;
+}
+
+
+#required {
+ color:#79251b;
+ font-size:.7em;
+ margin: 5px 0 0 0;
+ display:none;
+}
+
+#required.error{
+	color: #C00;
+	display:block;
+	font-size: .7em;
+	text-indent:5px;
+	float:left;
+	clear:left;
+	text-transform:uppercase;
+}
+
+#customForm input.error{
+	color:#C00;
+	background-color:#dcddde;
+	border-bottom:none;
+}
+
+#closeBTN{
+	float:right;
+	background:none;
+}
+
+#closeBTN a{
+	color:#666;
+	text-decoration:none;
+	-webkit-transition-duration: 0.30s;
+    -webkit-transition-timing-function: ease-in; 
+    -moz-transition-duration: 0.30s;
+    -moz-transition-timing-function: ease-in;
+}
+
+#closeBTN a:hover{
+	color:#dcddde;
+	text-decoration:none;
+	-webkit-transition-duration: 0.30s;
+    -webkit-transition-timing-function: ease-in; 
+    -moz-transition-duration: 0.30s;
+    -moz-transition-timing-function: ease-in;
+}
+
+#equal_housing_logo{
+	float:right;
+}
+
+#thankyou_text{
+	font-family:'GothamBook';
+	max-width:350px;
+	min-width:250px;
+	width: 50%;
+	background-color: none;
+	margin:60px auto 0 auto;
+	color:#666;
+	font-size:1.025em;
+	line-height:1.5em;
+	text-align:justify;
+}
+
+
+
+
