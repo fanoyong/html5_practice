@@ -19,12 +19,17 @@ The metadata can be used by browsers (how to display content or reload page), se
 <meta name="author" content="Anne Cho" >
 
 <!-- 2. http-equiv 가 왜 쓰일까요? -->
+<!-- By using the so called HTTP-EQUIV tag you are able to add certain values to your website. HTTP-EQUIV meta tags define the header of an HTML document. This is a section of code that is sent to your browser before the rest of the page. It communicates to your browser certain introductory information about the page. You can think of it as a "Hello, I am a HTML page. I was born on such-and-such a date and live on such-and-such a server. I was last modified on such-and-such a day, etc...
+-->
+<meta name= />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
 <meta name="format-detection" content="telephone=no">
 
 <!-- 3. 아래 geo.*** meta tag는 왜 쓰일 까요? -->
+<!-- Search engine optimization
+-->
 <meta type="geo.country" content="US">
 <meta name="geo.region" content="US-NY">
 <meta name="geo.placename" content="New York, NY">
@@ -46,6 +51,8 @@ The metadata can be used by browsers (how to display content or reload page), se
 <meta name="description" content="Cassa hotel and residences located at 515 9th avenue. Offering Studio, 1 Bedroom, 2 Bedroom and 3 Bedroom luxury rentals.Contact us: 212.951.0009 | hello@cassaresidencesnyc.com">
 
 <!-- 4. meta keyword, descriptionm page-topic 는 어떻게 활용될까요? -->
+<!-- search engine pick up keyword
+-->
 <meta name="keyword" content="515, 9th Avenue, Cassa, Cassa rentals, Cassa apartment rentals, 515 9th Avenue rentals, 515 9th Avenue apartment rentals, Manhattan apartments,rentals, luxury rentals, Hells Kitchen rentals, Hells Kitchen apartments, Hells Kitchen luxury rental, doorman building, nyc apartments, nyc rentals, apartment building, luxury rentals, new york city, nyc home, doorman building, new construction, new construction rentals, Loft, Loft residences, Loft rental"> 
 
 
@@ -56,6 +63,12 @@ The metadata can be used by browsers (how to display content or reload page), se
         ------------------->
         <!----preloader style------>
         <!-- 5. 아래 CSS파일은 어떻게 정의되고 어디에 위치할까요? -->
+        <!-- CSS can be added to HTML in the following ways:
+
+Inline - using the style attribute in HTML elements
+Internal - using the <style> element in the <head> section
+External - using an external CSS file
+-->
         <link rel="stylesheet" type="text/css" href="index_files/pace-theme-loading-bar.css">
         <!----main styles------>
 		<link rel="stylesheet" type="text/css" href="index_files/main.css"> 
@@ -64,6 +77,9 @@ The metadata can be used by browsers (how to display content or reload page), se
 		<link rel="stylesheet" type="text/css" href="index_files/animate.css">  
 <!------------------------icons--------------------------->
 		<!-- 6. FAVICON이 무엇일까요? -->
+		<!-- A favicon /ˈfævɪkɒn/ (short for Favorite icon), also known as a shortcut icon, Web site icon, tab icon or bookmark icon, is a file containing one or more[1] small icons, most commonly 16×16 pixels, associated with a particular Web site or Web page.[1][2] A web designer can create such an icon and install it into a Web site (or Web page) by several means, and graphical web browsers will then make use of it.[3] Browsers that provide favicon support typically display a page's favicon in the browser's address bar (sometimes in the history as well) and next to the page's name in a list of bookmarks.[3] Browsers that support a tabbed document interface typically show a page's favicon next to the page's title on the tab, and site-specific browsers use the favicon as a desktop icon.[1]
+		-->
+		
         <link rel="icon" href="http://www.cassaresidencesnyc.com/favicon.ico" type="image/x-icon">
 		<link rel="apple-touch-icon" sizes="57x57" href="http://www.cassaresidencesnyc.com/assets/img/mobilLinks/apple-touch-icon-iphone.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="http://www.cassaresidencesnyc.com/assets/img/mobilLinks/apple-touch-icon-ipad.png">
@@ -71,6 +87,16 @@ The metadata can be used by browsers (how to display content or reload page), se
 <!----------------------Java------------------------------>
 		<!----------------------Standard Scripts------------------------------>
 		<!-- 7. CSS처럼 JavaScript파일은 어디에 있을까요? -->
+		<!-- The <script> tag is used to define a client-side script, such as a JavaScript.
+
+The <script> element either contains scripting statements or it points to an external script file through the src attribute.
+
+Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+-->
         <script src="index_files/analytics.js" async=""></script><script type="text/javascript" src="index_files/jquery-1.js"></script>
         <script src="index_files/css3-mediaqueries.asc"></script>
         <script src="index_files/modernizr.js"></script>
